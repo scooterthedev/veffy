@@ -613,6 +613,393 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Amplifier_Audio:IRS2092S"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U4"
+				(at 0 27.94 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MC3361"
+				(at 0 25.4 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.lcsc.com/datasheet/C7302.pdf?spm=wm.sxq.inf.ggs___wm.fly.bg.0.stp&lcsc_vid=Q1QNUVICQAdbVFVeTldeBVNSFFNaUgdQEwBYUAFUQVIxVlNeRFheU1dWTlZdUjsOAxUeFF5JWBYZEEoKFBINSQcJGk4dAgUUFAk%3D"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Protected Digital Audio Amplifier, PWM Modulator, ±100V, 1.0/1.2A, SOIC-16"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "Gate Driver Class D"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "SOIC*3.9x9.9mm*P1.27mm*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "IRS2092S_0_1"
+				(rectangle
+					(start -7.62 5.08)
+					(end 7.62 -20.32)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "IRS2092S_1_1"
+				(pin input line
+					(at -10.16 2.54 0)
+					(length 2.54)
+					(name "OSC"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 0 0)
+					(length 2.54)
+					(name "OSC"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -10.16 -5.08 0)
+					(length 2.54)
+					(name "VCC"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -10.16 -2.54 0)
+					(length 2.54)
+					(name "MIXER_OUTPUT"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -10.16 -7.62 0)
+					(length 2.54)
+					(name "LIMITER_INPUT"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -10.16 -10.16 0)
+					(length 2.54)
+					(name "DECOUPLING"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at -10.16 -12.7 0)
+					(length 2.54)
+					(name "DECOUPLING"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -10.16 -15.24 0)
+					(length 2.54)
+					(name "QUADRATURE_INPUT"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -10.16 -17.78 0)
+					(length 2.54)
+					(name "AUDIO_OUT"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 10.16 -16.51 180)
+					(length 2.54)
+					(name "FILTER_INT"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 10.16 -13.97 180)
+					(length 2.54)
+					(name "FILTER_OUT"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 10.16 -11.43 180)
+					(length 2.54)
+					(name "SQUELCH_INT"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 -8.89 180)
+					(length 2.54)
+					(name "SCAN_CONTROL"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 10.16 -6.35 180)
+					(length 2.54)
+					(name "MUTE"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 10.16 -3.81 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 -1.27 180)
+					(length 2.54)
+					(name "RF_INT"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector:Screw_Terminal_01x05"
 			(pin_names
 				(offset 1.016)
@@ -3196,6 +3583,18 @@
 		(uuid "a8adaa3b-918a-4166-811f-f88d1a778991")
 	)
 	(rectangle
+		(start 76.2 62.23)
+		(end 194.31 97.79)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "c14986a0-c882-464b-890b-b42a9ce4f9aa")
+	)
+	(rectangle
 		(start 11.43 12.7)
 		(end 76.2 134.62)
 		(stroke
@@ -3226,6 +3625,16 @@
 			)
 		)
 		(uuid "1e2148eb-f698-47f0-82b4-195e28b31788")
+	)
+	(text "Mixer"
+		(exclude_from_sim no)
+		(at 132.08 96.012 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "460381eb-04e2-480e-ba15-dc6730712514")
 	)
 	(text "MCU"
 		(exclude_from_sim no)
@@ -3684,6 +4093,30 @@
 		(uuid "6e3a1f08-ef28-4f20-9019-654e53a9b6d7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 139.7 33.0419 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "IF_OUT"
+		(shape input)
+		(at 167.64 85.09 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "71b09be3-0532-474f-a23f-7d881ec0aa13")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 167.64 94.3648 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5922,6 +6355,128 @@
 			(project "veffy"
 				(path "/a4a921cd-bed4-4c43-940c-649e397b4b90"
 					(reference "#PWR025")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Amplifier_Audio:IRS2092S")
+		(at 99.06 113.03 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "478b32ca-70d0-40cf-8015-aec1f568f0ae")
+		(property "Reference" "U4"
+			(at 98.552 101.854 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MC3361"
+			(at 98.552 104.394 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm"
+			(at 99.06 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C7302.pdf?spm=wm.sxq.inf.ggs___wm.fly.bg.0.stp&lcsc_vid=Q1QNUVICQAdbVFVeTldeBVNSFFNaUgdQEwBYUAFUQVIxVlNeRFheU1dWTlZdUjsOAxUeFF5JWBYZEEoKFBINSQcJGk4dAgUUFAk%3D"
+			(at 99.06 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Protected Digital Audio Amplifier, PWM Modulator, ±100V, 1.0/1.2A, SOIC-16"
+			(at 99.06 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a13e156b-403a-4fe9-9f3f-3c1c2a5c4b6b")
+		)
+		(pin "16"
+			(uuid "f6ab9da7-7831-4d0e-8b83-9e826068804b")
+		)
+		(pin "14"
+			(uuid "ea4dc544-eb81-49d3-b46f-b8e3135ffd31")
+		)
+		(pin "12"
+			(uuid "5b093402-a08c-43cc-b725-ba953dbd7a8e")
+		)
+		(pin "11"
+			(uuid "e2ca306c-1ff0-4c23-8ca5-a101cbcf5ee7")
+		)
+		(pin "15"
+			(uuid "3cd6c5ba-592c-4954-aace-622fce045cae")
+		)
+		(pin "2"
+			(uuid "0eae6f4c-e8d3-4138-954d-ba2c7a66c9d5")
+		)
+		(pin "5"
+			(uuid "a22571a3-3d3d-4ba9-b9f3-d135508cf451")
+		)
+		(pin "6"
+			(uuid "1cc45b82-6735-4912-9631-5a95e259ea51")
+		)
+		(pin "13"
+			(uuid "c5ea502a-951d-4414-999a-edecb1848d5e")
+		)
+		(pin "2"
+			(uuid "8325815a-cbaa-4cda-85ba-a65cf2cec7be")
+		)
+		(pin "3"
+			(uuid "391416d1-7a68-464b-a794-09a2e5f76601")
+		)
+		(pin "7"
+			(uuid "ee9477aa-ebba-414f-b656-6038e35350ff")
+		)
+		(pin "8"
+			(uuid "55e8de68-ba34-4d15-bae2-e02839587383")
+		)
+		(pin "9"
+			(uuid "3924f02d-f674-440a-b0e6-177025d4c3ef")
+		)
+		(pin "10"
+			(uuid "75e0490c-d2e6-4bb7-b522-47d1b4036343")
+		)
+		(instances
+			(project "veffy"
+				(path "/a4a921cd-bed4-4c43-940c-649e397b4b90"
+					(reference "U4")
 					(unit 1)
 				)
 			)
