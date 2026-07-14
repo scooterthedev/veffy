@@ -5431,6 +5431,30 @@
 			)
 		)
 	)
+	(global_label "PRE_AMP"
+		(shape input)
+		(at 189.23 138.43 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6146f5b1-883f-4ff9-979d-9eea318b8d96")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 200.6818 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "AVDD1"
 		(shape input)
 		(at 139.7 24.13 270)
@@ -5492,30 +5516,6 @@
 		(uuid "7f8dd5fb-a4a1-482b-81c8-064d7fb8b4ee")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 167.64 95.6347 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "PRE_AMP"
-		(shape input)
-		(at 160.02 123.19 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "82232bc8-cee3-4191-b182-3750f14c91f1")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 160.02 134.6418 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7694,7 +7694,7 @@
 	)
 	(symbol
 		(lib_id "Amplifier_Operational:LM358_DFN")
-		(at 177.8 138.43 0)
+		(at 181.61 138.43 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7705,7 +7705,7 @@
 		(fields_autoplaced yes)
 		(uuid "2dc4f546-9d34-400f-801d-a606581abaaa")
 		(property "Reference" "U6"
-			(at 177.8 128.27 0)
+			(at 181.61 128.27 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7715,7 +7715,7 @@
 			)
 		)
 		(property "Value" "LM358_DFN"
-			(at 177.8 130.81 0)
+			(at 181.61 130.81 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7725,7 +7725,7 @@
 			)
 		)
 		(property "Footprint" "Package_CSP:LFCSP-8_2x2mm_P0.5mm"
-			(at 177.8 138.43 0)
+			(at 181.61 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7736,7 +7736,7 @@
 			)
 		)
 		(property "Datasheet" "www.st.com/resource/en/datasheet/lm358.pdf"
-			(at 177.8 138.43 0)
+			(at 181.61 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7747,7 +7747,7 @@
 			)
 		)
 		(property "Description" "Low-Power, Dual Operational Amplifiers, DFN-8"
-			(at 177.8 138.43 0)
+			(at 181.61 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
