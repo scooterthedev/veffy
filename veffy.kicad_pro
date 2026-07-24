@@ -636,6 +636,14 @@
     "meta": {
       "version": 1
     },
+    "ngspice": {
+      "fix_include_paths": true,
+      "meta": {
+        "version": 0
+      },
+      "model_mode": 4,
+      "workbook_filename": ""
+    },
     "page_layout_descr_file": "Veffy",
     "plot_directory": "",
     "reuse_designators": true,
@@ -648,7 +656,7 @@
         "uuid": "a4a921cd-bed4-4c43-940c-649e397b4b90"
       }
     ],
-    "used_designators": "CN1,LRFC2-3,C1-69,FB1,U1-12,SW1-2,MK1,J1-3,D1-3,Y1-2,#PWR1-121,Q1-4,R1-33,L1-22",
+    "used_designators": "CN1,LRFC2-3,C1-69,FB1,U1-12,SW1-2,MK1,J1-3,D1-3,Y1-2,#PWR1-122,Q1-4,R1-33,L1-22",
     "variants": []
   },
   "sheets": [
