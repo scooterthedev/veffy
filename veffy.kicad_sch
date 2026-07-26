@@ -10038,6 +10038,10 @@
 		(uuid "7ad8aab2-a7d5-4767-af50-5ead8f751058")
 	)
 	(no_connect
+		(at 111.76 134.62)
+		(uuid "7d6a0430-fe1a-43fe-a14a-8f7581562af1")
+	)
+	(no_connect
 		(at 113.03 41.91)
 		(uuid "b47cbab7-7c5a-4412-a282-2c78ec61ba6d")
 	)
@@ -12599,30 +12603,6 @@
 			)
 		)
 	)
-	(global_label "FILTER_INT"
-		(shape input)
-		(at 111.76 134.62 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "9fec2ba7-2990-4502-bf24-2185288dcf6e")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 124.7238 134.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
 	(global_label "AVDD2"
 		(shape input)
 		(at 130.81 21.59 270)
@@ -14074,7 +14054,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 28.448 233.68 90)
 			(hide yes)
 			(show_name no)
@@ -14154,7 +14134,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 184.15 196.85 0)
 			(hide yes)
 			(show_name no)
@@ -15120,7 +15100,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 18.542 69.85 90)
 			(hide yes)
 			(show_name no)
@@ -15382,7 +15362,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_Coaxial:SMA_Amphenol_901-144_Vertical"
 			(at 41.91 135.89 0)
 			(hide yes)
 			(show_name no)
@@ -15864,7 +15844,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_SMD:SW_MEC_5GSH9"
 			(at 24.13 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -16276,7 +16256,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 125.73 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -17601,7 +17581,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 80.01 246.6848 0)
 			(hide yes)
 			(show_name no)
@@ -17918,7 +17898,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 168.91 190.1952 0)
 			(hide yes)
 			(show_name no)
@@ -17998,7 +17978,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_CSP:LFCSP-8_2x2mm_P0.5mm"
+		(property "Footprint" "Package_DFN_QFN:DFN-8-1EP_2x2mm_P0.5mm_EP1.05x1.75mm"
 			(at 214.8083 122.936 0)
 			(hide yes)
 			(show_name no)
@@ -18098,7 +18078,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 97.4852 207.01 0)
 			(hide yes)
 			(show_name no)
@@ -18259,7 +18239,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 143.2052 199.39 0)
 			(hide yes)
 			(show_name no)
@@ -18656,7 +18636,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 127 234.95 0)
 			(hide yes)
 			(show_name no)
@@ -19796,7 +19776,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 163.5252 200.66 0)
 			(hide yes)
 			(show_name no)
@@ -19839,86 +19819,6 @@
 			(project "veffy"
 				(path "/a4a921cd-bed4-4c43-940c-649e397b4b90"
 					(reference "C58")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 49.53 149.86 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "43d7451c-7297-43b0-b71d-9f47850be5cf")
-		(property "Reference" "#PWR059"
-			(at 55.88 149.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 53.34 149.8599 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 49.53 149.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 49.53 149.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 49.53 149.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "aa96068b-4da2-458b-bb82-b5f997b431d4")
-		)
-		(instances
-			(project "veffy"
-				(path "/a4a921cd-bed4-4c43-940c-649e397b4b90"
-					(reference "#PWR059")
 					(unit 1)
 				)
 			)
@@ -20713,7 +20613,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 127.9652 199.39 0)
 			(hide yes)
 			(show_name no)
@@ -21303,7 +21203,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 184.15 190.1952 0)
 			(hide yes)
 			(show_name no)
@@ -21668,7 +21568,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 102.108 254 90)
 			(hide yes)
 			(show_name no)
@@ -22658,7 +22558,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 104.14 239.268 90)
 			(hide yes)
 			(show_name no)
@@ -22896,7 +22796,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 123.19 241.6048 0)
 			(hide yes)
 			(show_name no)
@@ -23216,7 +23116,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 107.442 158.75 90)
 			(hide yes)
 			(show_name no)
@@ -24749,7 +24649,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 140.6652 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -25469,7 +25369,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 200.66 196.85 0)
 			(hide yes)
 			(show_name no)
@@ -25627,7 +25527,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 188.9252 200.66 0)
 			(hide yes)
 			(show_name no)
@@ -26359,7 +26259,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
+		(property "Footprint" "Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 182.88 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -26438,7 +26338,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 72.39 213.868 90)
 			(hide yes)
 			(show_name no)
@@ -28339,7 +28239,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 104.14 248.412 90)
 			(hide yes)
 			(show_name no)
@@ -28819,7 +28719,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_SMD:SW_MEC_5GSH9"
 			(at 15.24 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -29539,7 +29439,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_CSP:LFCSP-8_2x2mm_P0.5mm"
+		(property "Footprint" "Package_DFN_QFN:DFN-8-1EP_2x2mm_P0.5mm_EP1.05x1.75mm"
 			(at 260.35 123.19 0)
 			(hide yes)
 			(show_name no)
@@ -29801,7 +29701,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 86.36 200.9648 0)
 			(hide yes)
 			(show_name no)
@@ -29930,85 +29830,6 @@
 	)
 	(symbol
 		(lib_id "Device:L")
-		(at 45.72 149.86 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "ca5898e2-fc18-4b41-82d9-54f84473c296")
-		(property "Reference" "L6"
-			(at 45.974 145.288 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1uH"
-			(at 45.72 147.32 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
-			(at 45.72 149.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 45.72 149.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Inductor"
-			(at 45.72 149.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "84866d64-f517-4563-8af2-22d55fbaaee9")
-		)
-		(pin "2"
-			(uuid "aa428d69-b3a7-4554-8297-ac8d91891439")
-		)
-		(instances
-			(project "veffy"
-				(path "/a4a921cd-bed4-4c43-940c-649e397b4b90"
-					(reference "L6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:L")
 		(at 158.75 196.85 180)
 		(unit 1)
 		(body_style 1)
@@ -30039,7 +29860,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 158.75 196.85 0)
 			(hide yes)
 			(show_name no)
@@ -31623,7 +31444,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 205.4352 200.66 0)
 			(hide yes)
 			(show_name no)
@@ -31898,7 +31719,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 137.922 36.83 90)
 			(hide yes)
 			(show_name no)
@@ -34269,7 +34090,7 @@
 				)
 			)
 		)
-		(property "Footprint" "OSC-SMD_4P-L2.0-W1.6-BL_EPSON_TG-5006CJ-19H"
+		(property "Footprint" "LCSC:OSC-SMD_4P-L2.0-W1.6-BL_EPSON_TG-5006CJ-19H"
 			(at 163.83 173.99 0)
 			(hide yes)
 			(show_name no)
@@ -35473,7 +35294,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 139.7 33.9852 0)
 			(hide yes)
 			(show_name no)
