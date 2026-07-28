@@ -9481,7 +9481,7 @@
 	)
 	(text "DDS Modulator"
 		(exclude_from_sim no)
-		(at 262.89 102.87 0)
+		(at 264.668 103.378 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10429,6 +10429,16 @@
 	)
 	(wire
 		(pts
+			(xy 85.09 76.2) (xy 91.44 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "55b3a28b-30df-4a27-ad0d-df876e5a5ea9")
+	)
+	(wire
+		(pts
 			(xy 113.03 29.21) (xy 120.65 29.21)
 		)
 		(stroke
@@ -10586,6 +10596,16 @@
 			(type default)
 		)
 		(uuid "7e2d4f54-ee96-4355-a025-919b676190b4")
+	)
+	(wire
+		(pts
+			(xy 259.08 90.17) (xy 255.27 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f894840-280c-4306-8c1d-5327b16dfc39")
 	)
 	(wire
 		(pts
@@ -10829,6 +10849,16 @@
 	)
 	(wire
 		(pts
+			(xy 276.86 90.17) (xy 274.32 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4406433-08c6-4b82-95a8-5eedb29a177e")
+	)
+	(wire
+		(pts
 			(xy 46.99 20.32) (xy 46.99 16.51)
 		)
 		(stroke
@@ -11056,16 +11086,6 @@
 			(type default)
 		)
 		(uuid "e94517bc-9f67-464f-bca1-688516ae8d2c")
-	)
-	(wire
-		(pts
-			(xy 83.82 76.2) (xy 91.44 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e9bebd46-fcad-41ea-8330-955e4a10090e")
 	)
 	(wire
 		(pts
@@ -11592,6 +11612,30 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+	)
+	(global_label "INPUTB"
+		(shape input)
+		(at 256.54 90.17 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1b5bf27a-4057-482c-94a3-712f074e8d62")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 256.54 99.9286 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 	)
@@ -12173,7 +12217,7 @@
 	)
 	(global_label "AGND"
 		(shape input)
-		(at 255.27 90.17 0)
+		(at 276.86 90.17 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -12183,7 +12227,7 @@
 		)
 		(uuid "6f811509-b5ea-49be-8ecc-e18022bf231e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 263.2143 90.17 0)
+			(at 284.8043 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12328,30 +12372,6 @@
 		(uuid "7f8dd5fb-a4a1-482b-81c8-064d7fb8b4ee")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 167.64 94.3647 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "RX_MIX_INT"
-		(shape input)
-		(at 91.44 73.66 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "855ec86f-b1c6-4a79-8c49-639ff1485e76")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 77.8715 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12856,6 +12876,30 @@
 		(uuid "bcce7669-934f-453f-ada9-81c455ece7c1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 49.53 162.4609 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "INPUTB"
+		(shape input)
+		(at 85.09 76.2 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "bda986dd-3c42-44af-99b2-8cc8a044d8f9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 75.3314 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13512,6 +13556,30 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+	)
+	(global_label "RX_MIX_INT"
+		(shape input)
+		(at 91.44 73.66 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e62c47f7-3528-4fd3-8149-e8fae6a2a883")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 91.44 60.0915 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 	)
@@ -15490,6 +15558,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 262.89 90.17 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "10309409-6f4e-4ace-a5f4-a1a4d7df9e95")
+		(property "Reference" "R36"
+			(at 262.636 92.202 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+			)
+		)
+		(property "Value" "680"
+			(at 262.89 90.17 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 262.89 91.948 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 262.89 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 262.89 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "823f5a0c-889d-43a7-bf90-87a1dbeaadd5")
+		)
+		(pin "2"
+			(uuid "b1a12fa7-c63b-4b6d-ae5f-cb1a54ac6fc4")
+		)
+		(instances
+			(project "veffy"
+				(path "/a4a921cd-bed4-4c43-940c-649e397b4b90"
+					(reference "R36")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5V")
 		(at 167.64 73.66 270)
 		(unit 1)
@@ -15866,7 +16013,7 @@
 				)
 			)
 		)
-		(property "Description" "Push button switch, generic, two pins"
+		(property "Description" "RST"
 			(at 19.05 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -16636,87 +16783,6 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 83.82 80.01 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "1ee6cd25-8b2c-44d5-8785-28a96e37fa8b")
-		(property "Reference" "C7"
-			(at 78.994 79.248 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "100pF"
-			(at 77.216 82.042 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 82.8548 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 83.82 80.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 83.82 80.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "59f9208c-c7a3-472a-b543-2128075893ca")
-		)
-		(pin "1"
-			(uuid "f1006182-8a64-4b1a-a4db-7a6dc8ca216e")
-		)
-		(instances
-			(project "veffy"
-				(path "/a4a921cd-bed4-4c43-940c-649e397b4b90"
-					(reference "C7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
 		(at 105.41 154.94 90)
 		(unit 1)
 		(body_style 1)
@@ -16953,6 +17019,85 @@
 			(project "veffy"
 				(path "/a4a921cd-bed4-4c43-940c-649e397b4b90"
 					(reference "C65")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 85.09 68.58 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "235d8feb-67a6-4d40-b514-e328e0730c70")
+		(property "Reference" "#PWR012"
+			(at 78.74 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 81.28 68.5799 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 85.09 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 85.09 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 85.09 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "319871b7-f1be-4f55-b856-058b06340a84")
+		)
+		(instances
+			(project "veffy"
+				(path "/a4a921cd-bed4-4c43-940c-649e397b4b90"
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -17467,84 +17612,6 @@
 			(project "veffy"
 				(path "/a4a921cd-bed4-4c43-940c-649e397b4b90"
 					(reference "C29")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 83.82 83.82 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2b6dd552-07ac-409a-bd49-e4ab4c39a43d")
-		(property "Reference" "#PWR012"
-			(at 83.82 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 83.82 88.9 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 83.82 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 83.82 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 83.82 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "d36281ef-fb25-442b-aa30-33c78219ce87")
-		)
-		(instances
-			(project "veffy"
-				(path "/a4a921cd-bed4-4c43-940c-649e397b4b90"
-					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -19000,6 +19067,87 @@
 			(project "veffy"
 				(path "/a4a921cd-bed4-4c43-940c-649e397b4b90"
 					(reference "C35")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 85.09 72.39 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "3aa098af-f962-4123-97ed-ace77afa1b7d")
+		(property "Reference" "C7"
+			(at 87.884 70.358 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10pF"
+			(at 89.662 67.564 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 86.0552 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 85.09 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 85.09 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "822daab0-933b-4ca2-8453-80e84cd41fda")
+		)
+		(pin "1"
+			(uuid "7e0b2a1a-8b16-44c3-b561-ef48e4b382d6")
+		)
+		(instances
+			(project "veffy"
+				(path "/a4a921cd-bed4-4c43-940c-649e397b4b90"
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -25896,7 +26044,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 251.46 90.17 90)
+		(at 270.51 90.17 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -25906,7 +26054,7 @@
 		(dnp no)
 		(uuid "94321398-885d-484d-8749-4b14f60f6200")
 		(property "Reference" "R14"
-			(at 254.254 92.202 90)
+			(at 273.304 92.202 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -25916,7 +26064,7 @@
 			)
 		)
 		(property "Value" "200"
-			(at 251.46 90.17 90)
+			(at 270.764 90.17 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -25926,7 +26074,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 251.46 91.948 90)
+			(at 270.51 91.948 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25937,7 +26085,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 251.46 90.17 0)
+			(at 270.51 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25948,7 +26096,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 251.46 90.17 0)
+			(at 270.51 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28369,6 +28517,87 @@
 	)
 	(symbol
 		(lib_id "Device:C")
+		(at 251.46 90.17 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b9e712c0-e23e-452e-bf45-a79e70c85872")
+		(property "Reference" "C64"
+			(at 250.698 96.52 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1nF"
+			(at 252.73 96.52 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 255.27 89.2048 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 251.46 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 251.46 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "343b8c89-3f01-4481-aad3-758a2f80b3d4")
+		)
+		(pin "1"
+			(uuid "f9d161ce-6029-4369-ba7e-f669751d4527")
+		)
+		(instances
+			(project "veffy"
+				(path "/a4a921cd-bed4-4c43-940c-649e397b4b90"
+					(reference "C64")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
 		(at 46.99 24.13 0)
 		(unit 1)
 		(body_style 1)
@@ -28741,7 +28970,7 @@
 				)
 			)
 		)
-		(property "Description" "Push button switch, generic, two pins"
+		(property "Description" "PTT"
 			(at 15.24 73.66 0)
 			(hide yes)
 			(show_name no)
