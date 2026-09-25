@@ -1,3 +1,4 @@
 /veffy-backups
 *.lck
 .DS_Store
+*.zip
