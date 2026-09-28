@@ -11042,12 +11042,6 @@
 		(uuid "95c29ad7-e7e5-4cb0-b997-9c7a54824931")
 	)
 	(junction
-		(at 147.32 240.03)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9e6cc9b8-f7de-4c3f-b4a4-da1408e45928")
-	)
-	(junction
 		(at 299.72 191.77)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -11190,6 +11184,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fb626276-262b-4359-a28c-69af7da3c384")
+	)
+	(junction
+		(at 147.32 240.03)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fc03e070-abc6-416c-8f74-da07c1d979d3")
 	)
 	(junction
 		(at 49.53 16.51)
@@ -11972,16 +11972,6 @@
 			(type default)
 		)
 		(uuid "61c2b799-9374-4cdb-8683-1cffafd6db11")
-	)
-	(wire
-		(pts
-			(xy 179.3105 81.2777) (xy 175.26 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "63f1d3c3-00e6-441d-b978-4b181841cad5")
 	)
 	(wire
 		(pts
@@ -14909,7 +14899,7 @@
 			)
 		)
 	)
-	(global_label "IF_455K"
+	(global_label "TX_MIX_OUT"
 		(shape input)
 		(at 147.32 236.22 90)
 		(fields_autoplaced yes)
@@ -14921,7 +14911,7 @@
 		)
 		(uuid "bdbffdc0-9417-404c-8fd0-a1271c951128")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 147.32 225.6753 90)
+			(at 147.32 222.2282 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15413,6 +15403,30 @@
 			)
 		)
 	)
+	(global_label "TX_MIX_OUT"
+		(shape input)
+		(at 175.26 81.28 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "dcd19890-bc38-4315-8442-3258a9ce2a17")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 189.2518 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "AGND"
 		(shape input)
 		(at 139.7 48.26 180)
@@ -15655,7 +15669,7 @@
 	)
 	(global_label "IF_OUT"
 		(shape input)
-		(at 119.38 101.6 180)
+		(at 88.9 101.6 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -15665,7 +15679,7 @@
 		)
 		(uuid "e63409f4-d67b-40b9-9ac7-b39de6d2af30")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 110.1052 101.6 0)
+			(at 79.6252 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15703,7 +15717,7 @@
 	)
 	(global_label "IF_455K"
 		(shape input)
-		(at 119.38 99.06 180)
+		(at 88.9 99.06 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -15713,7 +15727,7 @@
 		)
 		(uuid "eaef29c0-a7fd-4c50-a516-b40467c2db42")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 108.8353 99.06 0)
+			(at 78.3553 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21734,85 +21748,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 179.3105 81.2777 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "32dba7a0-30a2-4a56-8008-d264a89f31a4")
-		(property "Reference" "#PWR013"
-			(at 179.3105 87.6277 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 179.3105 86.3577 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 179.3105 81.2777 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 179.3105 81.2777 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 179.3105 81.2777 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "e4f2e2cf-0250-4d4c-b710-d2c0db31bc1a")
-		)
-		(instances
-			(project "veffy"
-				(path "/a4a921cd-bed4-4c43-940c-649e397b4b90"
-					(reference "#PWR013")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 207.01 81.28 180)
 		(unit 1)
@@ -25264,7 +25199,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 142.24 101.6 90)
+		(at 111.76 101.6 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -25275,7 +25210,7 @@
 		(fields_autoplaced yes)
 		(uuid "50031650-60d6-4e5f-889d-a124e15940df")
 		(property "Reference" "#PWR042"
-			(at 148.59 101.6 0)
+			(at 118.11 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25286,7 +25221,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 146.05 101.5999 90)
+			(at 115.57 101.5999 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25298,7 +25233,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 142.24 101.6 0)
+			(at 111.76 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25309,7 +25244,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 142.24 101.6 0)
+			(at 111.76 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25320,7 +25255,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 142.24 101.6 0)
+			(at 111.76 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25765,6 +25700,87 @@
 			(project "veffy"
 				(path "/a4a921cd-bed4-4c43-940c-649e397b4b90"
 					(reference "#PWR068")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:L")
+		(at 147.32 243.84 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "57b9cd57-b60b-492d-a048-2bb15f4e50eb")
+		(property "Reference" "L6"
+			(at 144.526 242.57 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "33nH"
+			(at 141.986 245.11 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_MiniMELF"
+			(at 147.32 243.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 147.32 243.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Inductor"
+			(at 147.32 243.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "80993ef3-d79d-48c7-9301-e10816176aae")
+		)
+		(pin "1"
+			(uuid "747d3c79-b243-4a07-85ae-8ad59309e91d")
+		)
+		(instances
+			(project "veffy"
+				(path "/a4a921cd-bed4-4c43-940c-649e397b4b90"
+					(reference "L6")
 					(unit 1)
 				)
 			)
@@ -33984,7 +34000,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 142.24 99.06 90)
+		(at 111.76 99.06 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -33995,7 +34011,7 @@
 		(fields_autoplaced yes)
 		(uuid "aa09657c-c275-48a6-9382-25aa1e922643")
 		(property "Reference" "#PWR041"
-			(at 148.59 99.06 0)
+			(at 118.11 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34006,7 +34022,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 146.05 99.0599 90)
+			(at 115.57 99.0599 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34018,7 +34034,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 142.24 99.06 0)
+			(at 111.76 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34029,7 +34045,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 142.24 99.06 0)
+			(at 111.76 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34040,7 +34056,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 142.24 99.06 0)
+			(at 111.76 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -37185,86 +37201,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:L")
-		(at 147.32 243.84 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "ca83f962-4965-4ca2-af59-11ce78fbea38")
-		(property "Reference" "L17"
-			(at 145.288 243.84 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0603CS-33NXJLW"
-			(at 144.78 240.03 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
-			(at 147.32 243.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.coilcraft.com/getmedia/022eb894-7253-40d0-b07c-650d362fc80e/0603cs.pdf"
-			(at 147.32 243.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Inductor"
-			(at 147.32 243.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "8e0df515-740c-4845-b680-ec3879bef4d7")
-		)
-		(pin "2"
-			(uuid "78f1e471-29fe-4d7c-8566-a791fa681cb6")
-		)
-		(instances
-			(project "veffy"
-				(path "/a4a921cd-bed4-4c43-940c-649e397b4b90"
-					(reference "L17")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 190.5 119.38 90)
 		(unit 1)
@@ -39615,7 +39551,7 @@
 	)
 	(symbol
 		(lib_id "Easyeda2Kicad:HCCF2-455.000-LTWCDL")
-		(at 130.81 100.33 0)
+		(at 100.33 100.33 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -39626,7 +39562,7 @@
 		(fields_autoplaced yes)
 		(uuid "e04f0df2-549b-4d8c-81fe-6420e338b7db")
 		(property "Reference" "L1"
-			(at 130.81 91.44 0)
+			(at 100.33 91.44 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -39636,7 +39572,7 @@
 			)
 		)
 		(property "Value" "HCCF2-455.000-LTWCDL"
-			(at 130.81 93.98 0)
+			(at 100.33 93.98 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -39646,7 +39582,7 @@
 			)
 		)
 		(property "Footprint" "LCSC:FILTER-SMD_4P-L11.9-W6.5-P5.50-LS7.5-BL"
-			(at 130.81 109.22 0)
+			(at 100.33 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -39657,7 +39593,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/C42392417.pdf"
-			(at 130.81 111.76 0)
+			(at 100.33 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -39668,7 +39604,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 130.81 100.33 0)
+			(at 100.33 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -39679,7 +39615,7 @@
 			)
 		)
 		(property "Manufacturer" "HCI(杭晶)"
-			(at 130.81 114.3 0)
+			(at 100.33 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -39690,7 +39626,7 @@
 			)
 		)
 		(property "MPN" "HCCF2-455.000-LTWCDL"
-			(at 130.81 116.84 0)
+			(at 100.33 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -39701,7 +39637,7 @@
 			)
 		)
 		(property "LCSC Part" "C42392417"
-			(at 130.81 119.38 0)
+			(at 100.33 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
